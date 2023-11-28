@@ -7,6 +7,7 @@
 6. Class PodcastAuthor - implement IAuthor, + Name, Podcasts (LSP)
 
 7. Class Album - Name, MusicStyle, Songs
+
 8. Enum MusicStyle - Pop, Rock, Jazz
 
 9. Service class SpotifyService (DIP) - methods to:
