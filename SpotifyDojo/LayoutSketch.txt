@@ -1,13 +1,15 @@
-1. Abstract class - Track - Song, Podcast, Name, LengthInSeconds, NumberOfTimesPlayed++
-2. Class Song - inherit from Track, + Lyrics
-3. Class Podcast - inherit from Track, + SeasonNumber, TrackNumber
+1. Abstract class (common functionality) - Track - Song, Podcast, Name, LengthInSeconds, NumberOfTimesPlayed++ (OCP)
+2. Class Song - inherit from Track, + Lyrics (SRP)
+3. Class Podcast - inherit from Track, + SeasonNumber, TrackNumber (SRP)
 
-4. Interface IAuthor
-5. Class SongAuthor - implement IAuthor, + Name, Albums
-6. Class PodcastAuthor - implement IAuthor, + Name, Podcasts
+4. Interface IAuthor (define author related functionalities, allow different types of authors) (ISP)
+5. Class SongAuthor - implement IAuthor, + Name, Albums (LSP)
+6. Class PodcastAuthor - implement IAuthor, + Name, Podcasts (LSP)
 
 7. Class Album - Name, MusicStyle, Songs
-8. Enum MusicStyle - POP, ROCK, JAZZ
+8. Enum MusicStyle - Pop, Rock, Jazz
 
-9. Service class SpotifyService - methods to:
-    search tracks, list tracks by author, find top tracks
+9. Service class SpotifyService (DIP) - methods to:
+    search tracks, 
+    list tracks by author, 
+    find top tracks
