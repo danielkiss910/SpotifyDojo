@@ -1,0 +1,13 @@
+1. Abstract class - Track - Song, Podcast, Name, LengthInSeconds, NumberOfTimesPlayed++
+2. Class Song - inherit from Track, + Lyrics
+3. Class Podcast - inherit from Track, + SeasonNumber, TrackNumber
+
+4. Interface IAuthor
+5. Class SongAuthor - implement IAuthor, + Name, Albums
+6. Class PodcastAuthor - implement IAuthor, + Name, Podcasts
+
+7. Class Album - Name, MusicStyle, Songs
+8. Enum MusicStyle - POP, ROCK, JAZZ
+
+9. Service class SpotifyService - methods to:
+    search tracks, list tracks by author, find top tracks
