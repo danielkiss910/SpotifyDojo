@@ -1,19 +1,19 @@
-namespace SpotifyDojo;
+namespace SpotifyDojo.Model.Author;
 
 public class SongAuthor : IAuthor
 {
     public string Name { get; set; }
-    public List<Album> Albums { get; set; }
+    public List<Album.Album> Albums { get; set; }
 
     public SongAuthor(string name)
     {
         Name = name;
-        Albums = new List<Album>();
+        Albums = new List<Album.Album>();
     }
 
-    public List<Track> GetTracks()
+    public List<Track.Track> GetTracks()
     {
-        return Albums.SelectMany(album => album.Songs).Cast<Track>().ToList();
+        return Albums.SelectMany(album => album.Songs).Cast<Track.Track>().ToList();
     }
 }
         /*

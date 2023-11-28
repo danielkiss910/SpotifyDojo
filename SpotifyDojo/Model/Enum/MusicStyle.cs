@@ -1,4 +1,4 @@
-namespace SpotifyDojo;
+namespace SpotifyDojo.Model.Enum;
 
 public enum MusicStyle
 {

@@ -1,4 +1,4 @@
-namespace SpotifyDojo;
+namespace SpotifyDojo.Model.Track;
 
 public class Podcast : Track
 {

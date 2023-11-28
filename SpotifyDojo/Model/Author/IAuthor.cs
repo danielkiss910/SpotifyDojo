@@ -1,7 +1,7 @@
-namespace SpotifyDojo;
+namespace SpotifyDojo.Model.Author;
 
 public interface IAuthor
 {
     string Name { get; set; }
-    List<Track> GetTracks();
+    List<Track.Track> GetTracks();
 }

@@ -1,4 +1,6 @@
-namespace SpotifyDojo;
+using SpotifyDojo.Model.Track;
+
+namespace SpotifyDojo.Model.Author;
 
 public class PodcastAuthor : IAuthor
 {
@@ -11,9 +13,9 @@ public class PodcastAuthor : IAuthor
         Podcasts = new List<Podcast>();
     }
 
-    public List<Track> GetTracks()
+    public List<Track.Track> GetTracks()
     {
-        return Podcasts.Cast<Track>().ToList();
+        return Podcasts.Cast<Track.Track>().ToList();
     }
 }
 /*

@@ -1,4 +1,7 @@
-namespace SpotifyDojo;
+using SpotifyDojo.Model.Author;
+using SpotifyDojo.Model.Track;
+
+namespace SpotifyDojo.Service;
 
 public class SpotifyService
 {

@@ -1,4 +1,7 @@
-namespace SpotifyDojo;
+using SpotifyDojo.Model.Enum;
+using SpotifyDojo.Model.Track;
+
+namespace SpotifyDojo.Model.Album;
 
 public class Album
 {
