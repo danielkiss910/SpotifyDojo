@@ -3,7 +3,7 @@ namespace SpotifyDojo.Model.Author;
 public class SongAuthor : IAuthor
 {
     public string Name { get; set; }
-    public List<Album.Album> Albums { get; set; }
+    public List<Album.Album> Albums { get; private set; }
 
     public SongAuthor(string name)
     {

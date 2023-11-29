@@ -1,0 +1,15 @@
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\bin\Debug\net7.0\SpotifyDojo.exe
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\bin\Debug\net7.0\SpotifyDojo.deps.json
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\bin\Debug\net7.0\SpotifyDojo.runtimeconfig.json
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\bin\Debug\net7.0\SpotifyDojo.dll
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\bin\Debug\net7.0\SpotifyDojo.pdb
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.csproj.AssemblyReference.cache
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.AssemblyInfoInputs.cache
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.AssemblyInfo.cs
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.dll
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\refint\SpotifyDojo.dll
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.pdb
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\SpotifyDojo.genruntimeconfig.cache
+C:\Users\Daniel\RiderProjects\SpotifyDojo\SpotifyDojo\obj\Debug\net7.0\ref\SpotifyDojo.dll

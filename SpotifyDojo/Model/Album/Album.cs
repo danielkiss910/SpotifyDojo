@@ -5,9 +5,9 @@ namespace SpotifyDojo.Model.Album;
 
 public class Album
 {
-    public string Name { get; set; }
-    public MusicStyle Style { get; set; }
-    public List<Song> Songs { get; set; }
+    public string Name { get; private set; }
+    public MusicStyle Style { get; private set; }
+    public List<Song> Songs { get; private set; }
 
     public Album(string name, MusicStyle style)
     {

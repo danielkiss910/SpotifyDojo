@@ -15,12 +15,12 @@ public class SpotifyService
     public List<Track> SearchByTrackName(string trackName)
     {
         return _authors.SelectMany(author => author.GetTracks())
-            .Where(track => track.Name.Contains(trackName, StringComparison.OrdinalIgnoreCase))
+            .Where(track => track.Name.StartsWith(trackName, StringComparison.OrdinalIgnoreCase))
             .ToList();
     }
     /*
         1. SelectMany - flattens lists from all authors into single list
-        2. .Where - filters flattened list to find where track name contains search string trackName
+        2. .Where - filters flattened list to find where track name starts search string trackName
         3. StringComparison.OrdinalIgnoreCase - makes search case insensitive
         4. .ToList - converts result of LINQ query (IEnumerable<Track>) into List<Track>
     */
@@ -52,4 +52,9 @@ public class SpotifyService
         3. Take(count) - Takes the first 'count' of elements from the ordered list (3 in this case)
         4. Converts result into a List<Track>
     */
+
+    public void Play(string trackName) // wrapper method
+    {
+        SearchByTrackName(trackName).First().Play(); // first - lista x elemet tudod lejatszani
+    }
 }

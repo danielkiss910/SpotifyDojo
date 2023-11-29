@@ -19,6 +19,7 @@ class Program
         album1.Songs.Add(new Song("Song3", 220, "Lyrics of Song3"));
         songAuthor1.Albums.Add(album1);
         
+        
         // Create PodcastAuthor with Podcasts
         var podcastAuthor1 = new PodcastAuthor("PodcastAuthor1");
         
@@ -28,6 +29,12 @@ class Program
         
         // Create SpotifyService and pass the list of authors
         var spotifyService = new SpotifyService(new List<IAuthor> { songAuthor1, podcastAuthor1 });
+        
+        spotifyService.Play("Song3");
+        spotifyService.Play("Song3");
+        spotifyService.Play("Song3");
+        spotifyService.Play("Song3");
+        spotifyService.Play("Song3");
         
         // Search for track by name
         var searchResults = spotifyService.SearchByTrackName("Song1");
@@ -45,8 +52,7 @@ class Program
             Console.WriteLine(track.Name);
         }
         
-        // Get top listened tracks
-        // Need to simulate track plays to see meaningful results here
+        // Get top listened tracks (need to simulate track plays)
         var topTracks = spotifyService.GetTopListenedTracks();
         Console.WriteLine("\nTop Listened Tracks");
         foreach (var track in topTracks)
